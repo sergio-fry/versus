@@ -13,3 +13,15 @@ Programming challenge.
 * As Member I can vote for a next Contest, so the most interesting Contest is activated.
 * As Member I can vote for someones Solution, to choose the best available Solution as winner.
 * As Member I can see others members Score, to see most successful Members.
+
+## API
+
+### Create Group
+
+```shell
+curl -i -H "Authorization: Bearer ABC123..." \
+     -d '{ \
+           "name": "New logo" \
+         }' \
+    https://versus.example/api/groups
+```
